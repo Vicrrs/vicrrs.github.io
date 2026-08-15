@@ -1,0 +1,13 @@
+services:
+  blog:
+    build: .
+    # A porta 4000 do container fica acessivel em http://localhost:4000 na sua maquina.
+    ports:
+      - "4000:4000"
+    # "Espelha" a pasta ./site da sua maquina para /blog dentro do container.
+    # Tudo que voce escrever fica salvo na SUA maquina, mesmo que o container seja apagado.
+    volumes:
+      - ./site:/blog
+    # Mantem o container interativo (util para rodar comandos manualmente).
+    stdin_open: true
+    tty: true
