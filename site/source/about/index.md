@@ -7,11 +7,11 @@ comments: false
 
 Olá! Sou **Victor Roza Souza**, Machine Learning Engineer de Manaus, Amazonas. Atuo na construção de produtos de inteligência artificial, da experimentação ao ambiente de produção, com experiência em sistemas de recomendação e busca, MLOps, IA generativa e Visão Computacional.
 
-Atualmente trabalho na **OLX**, desenvolvendo e evoluindo modelos de recomendação, busca e *Learning to Rank* para os verticais de Autos e Imóveis. Meu trabalho envolve engenharia de atributos, treinamento e avaliação de modelos de ranking, pipelines reprodutíveis e gerenciamento de experimentos e modelos com MLflow.
+Atualmente trabalho como **Machine Learning Engineer**, com foco em MLOps, desenvolvendo e evoluindo modelos de recomendação, busca e *Learning to Rank*. Meu trabalho envolve engenharia de atributos, treinamento e avaliação de modelos de ranking, pipelines reprodutíveis e gerenciamento de experimentos e modelos com MLflow.
 
 ## Experiência
 
-Antes da OLX, atuei como Machine Learning Engineer na **act digital**, em projeto para o Banco Bmg. Trabalhei com pipelines distribuídos em PySpark e Databricks, governança de dados, MLOps e soluções de IA generativa. Entre elas, uma arquitetura multiagente com LangGraph integrada ao Microsoft Teams, capaz de consultar metadados corporativos com respeito às permissões do catálogo de dados.
+Anteriormente, atuei como Machine Learning Engineer na **act digital**, em projeto para o Banco Bmg. Trabalhei com pipelines distribuídos em PySpark e Databricks, governança de dados, MLOps e soluções de IA generativa. Entre elas, uma arquitetura multiagente com LangGraph integrada ao Microsoft Teams, capaz de consultar metadados corporativos com respeito às permissões do catálogo de dados.
 
 Minha trajetória também inclui:
 
