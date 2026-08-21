@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: ''
-description: ''
-keywords: null
-author: John Doe
-language: en
-timezone: ''
-url: http://example.com
+title: Victor Roza Souza
+subtitle: 'Machine Learning Engineer'
+description: 'Portfólio e blog de Victor Roza Souza sobre Machine Learning, MLOps, sistemas de recomendação, IA generativa e Visão Computacional.'
+keywords: Machine Learning, MLOps, Learning to Rank, Sistemas de Recomendação, Visão Computacional, IA Generativa, Python
+author: Victor Roza Souza
+language: pt-BR
+timezone: America/Manaus
+url: https://vicrrs.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:

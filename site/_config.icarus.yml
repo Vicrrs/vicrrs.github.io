@@ -1,7 +1,7 @@
 # Version of the configuration file
 version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: default
+variant: cyberpunk
 # Path or URL to the website's logo
 logo: /img/logo.svg
 # Page metadata configurations
@@ -19,10 +19,10 @@ head:
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
-        theme_color: 
+        theme_color: '#76b900'
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color: '#050805'
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
@@ -98,18 +98,18 @@ head:
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        - ''
+        - 'name=theme-color;content=#76b900'
     # URL or path to the website's RSS atom.xml
     rss: 
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
+        Início: /
+        Arquivo: /archives
+        Categorias: /categories
         Tags: /tags
-        About: /about
+        Sobre: /about
     # Links to be shown on the right of the navigation bar
     links:
         GitHub:
@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: © 2026 Victor Roza Souza
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -136,7 +136,7 @@ article:
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: atom-one-dark
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -164,10 +164,7 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+comment: false
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -191,13 +188,6 @@ donates:
         type: patreon
         # URL to the Patreon page
         url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
@@ -205,10 +195,7 @@ donates:
         qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+share: false
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -228,14 +215,11 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: profile
-        # >>> EDITE: seu nome que aparece na barra lateral
         author: Victor Roza Souza
-        # >>> EDITE: seu cargo/descricao curta
-        author_title: Developer / Machine Learning Engenieer
-        # >>> EDITE: sua cidade
-        location: Manaus, Brasil
+        author_title: Machine Learning Engineer
+        location: Manaus, Amazonas, Brasil
         # >>> EDITE (opcional): caminho da sua foto, ex: /img/avatar.png
-        avatar: 
+        avatar: /img/avatar.jpg
         # Deixa a foto redonda
         avatar_rounded: true
         # (opcional) email para o Gravatar
@@ -249,12 +233,10 @@ widgets:
                 url: https://github.com/vicrrs
             LinkedIn:
                 icon: fab fa-linkedin
-                # >>> EDITE: seu LinkedIn
-                url: https://www.linkedin.com/in/SEU-USUARIO
+                url: https://www.linkedin.com/in/victor-roza-souza-804a031a0
             Email:
                 icon: fas fa-envelope
-                # >>> EDITE: seu email
-                url: mailto:seu-email@exemplo.com
+                url: mailto:victorroza22@gmail.com
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -276,8 +258,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            GitHub: https://github.com/vicrrs
+            LinkedIn: https://www.linkedin.com/in/victor-roza-souza-804a031a0
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -313,15 +295,6 @@ widgets:
         description: 
         # Feedburner ID
         feedburner_id: ''
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
